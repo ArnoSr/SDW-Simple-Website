@@ -1,10 +1,12 @@
 <?php
 
-// Comment these lines to hide errors
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+require 'includes/connexion.php';
 
-require 'includes/config.php';
-require 'includes/functions.php';
 
-init();
+/* Récupérations des données infos */
+$stmt = $bdd->prepare("SELECT firstname, lastname FROM infos WHERE id = 1");
+$stmt->execute();
+$row = $stmt->fetch();
+
+echo "Nom : " . $row['firstname'] . "<br/>";
+echo "Prénom : " . $row['lastname'];
