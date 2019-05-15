@@ -14,5 +14,5 @@
 
 7. Télécharger le modèle et placer le contenu du dossier télécharger à la racine de votre projet 
 
-8. Compléter votre admin en fonction de vos besoins et récupérer les éléments enregistrée sur votre modèle front 
+8. Compléter votre admin en fonction de vos besoins et récupérer les éléments enregistrés sur votre modèle front 
 
